@@ -1,35 +1,30 @@
-# Validação — 02/10/2026
+# Validação — versão sem ticker — 02/10/2026
 
-Esta entrega foi salva localmente e no Google Drive. Não houve envio à hospedagem, publicação ou deploy nesta revisão.
+## Alteração entregue
 
-## Mudanças
+- Removidos os elementos HTML da faixa de Instagram, TikTok e Gemini Experience da home e dos produtos.
+- Removida integralmente a função `continuousTicker`, sua chamada antes do catálogo, o `do/while` de largura, o observador e a espera das fontes relacionados à faixa.
+- Removidas as regras CSS e animações do ticker e do antigo marquee. A animação das roupas foi preservada.
+- Altura da área principal ajustada para preencher o espaço após a retirada do rodapé.
+- Mantidas a arara interativa, todas as 25 roupas, catálogo, fotos originais, mockups, tamanhos e links de produto/compra.
 
-- A arara para sempre em grupos completos, com margem para mangas, cabides, escala de seleção e balanço.
-- Até cinco peças por grupo em desktop; quatro em tablet; três em larguras intermediárias; duas em celular.
-- O último grupo reapresenta a peça anterior quando necessário para evitar uma peça isolada ou cortada no final.
-- Todos os 25 produtos permanecem acessíveis, com baby looks intercalados.
-- Arraste da barra, botões anterior/próximo e teclado continuam funcionando.
-- Controles de toque com pelo menos 44 pixels; fotografias de produto contidas sem corte e miniaturas ajustadas ao celular.
-- Faixa inferior contínua e identidade visual preservadas.
+## Verificações locais
 
-## Verificações realizadas
-
-- Prévia local em 320 × 568, 390 × 844, 768 × 1024 e 1280 × 720.
-- Sem transbordamento horizontal da página nas larguras verificadas.
-- Imagens dos grupos visíveis integralmente dentro da área da arara.
-- Último grupo mobile com peças 24 e 25 completas; navegação por arraste da barra e teclado verificadas.
-- Seleção da camiseta e abertura dos detalhes verificadas no celular.
 - `node --check dist/app.js` e `node --check dist/rack.js` aprovados.
-- `npm run build` aprovado: arquivos do site e fotos/mockups dos 25 produtos presentes.
-- Configuração Vercel incluída; a publicação na Vercel não foi executada.
+- `npm run build` aprovado para os 25 produtos.
+- Código HTML/JS/CSS de todas as páginas sem referências ao ticker, `continuousTicker` ou marquee.
+- Todas as 76 imagens únicas e as fontes comparadas por hash com o pacote anterior: bytes preservados.
+- ZIP com 96 arquivos; `dist/` com 88. Nenhum arquivo individual ultrapassa 2 MB.
+- ZIP extraído e build executado novamente com sucesso.
 
-## Correção do envio para GitHub
+## Testes em navegador
 
-- Projeto completo: 96 arquivos; `dist/`: 88 arquivos.
-- Referências a 125 arquivos de imagens remapeadas para 76 arquivos únicos.
-- As 125 referências foram comparadas byte a byte com o original: todas preservadas, sem recompressão ou mudança de qualidade.
-- Maior arquivo: 1.605.749 bytes, abaixo do limite de 25 MiB do envio pelo navegador.
-- O build foi executado no pacote otimizado e novamente depois da extração do ZIP.
-- O ZIP corrigido não inclui capturas de prévia, código do antigo 3D, histórico Git, credenciais ou configuração da hospedagem Sites.
+**Não concluídos.** A abertura automatizada do WebKit encontrou a limitação `spawn EPERM` no ambiente. As tentativas de WebKit/Chromium foram interrompidas a pedido do usuário antes da execução de testes completos de home, produto e navegação.
 
-Não houve envio a um repositório GitHub, publicação ou deploy nesta correção. O pacote está preparado para o proprietário realizar o envio e a publicação.
+Não se afirma nesta revisão que Safari/WebKit ou Chromium passaram em testes reais. O relato de travamento do ticker em Safari veio do usuário; a remoção elimina o código suspeito, mas esta entrega não confirma a correção em um navegador.
+
+As verificações visuais de versões anteriores não validam automaticamente esta revisão sem ticker.
+
+## Entrega
+
+ZIP e guia substituídos nos mesmos IDs do Google Drive, na pasta `02 PROJETOS / Gemini Experience / site`. Não houve publicação, deploy ou envio a GitHub/hospedagem. Nenhuma pasta inteira foi excluída.

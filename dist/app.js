@@ -1,15 +1,7 @@
 const money = n => n.toLocaleString('pt-BR',{style:'currency',currency:'BRL'});
 const escapeHtml = s => String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-function continuousTicker(){
- const ticker=document.querySelector('.ticker');if(!ticker)return;const track=document.createElement('div');track.className='ticker-track';ticker.replaceChildren(track);
- function rebuild(){const group=document.createElement('div');group.className='ticker-group';track.replaceChildren(group);let count=0;
-  do{const unit=document.createElement('span');unit.className='ticker-unit';unit.innerHTML='<a href="https://instagram.com/gemini.exp">INSTAGRAM</a><span>·</span><a href="https://tiktok.com/@gemini.experience">TIKTOK</a><span>·</span><span>GEMINI EXPERIENCE</span><span>·</span>';if(count++){unit.setAttribute('aria-hidden','true');unit.querySelectorAll('a').forEach(a=>a.tabIndex=-1)}group.append(unit)}while(group.getBoundingClientRect().width<ticker.clientWidth+350);
-  const copy=group.cloneNode(true);copy.setAttribute('aria-hidden','true');copy.querySelectorAll('a').forEach(a=>a.tabIndex=-1);track.append(copy);track.style.setProperty('--ticker-duration',(group.getBoundingClientRect().width/50)+'s');
- }
- rebuild();let width=ticker.clientWidth;new ResizeObserver(()=>{if(width!==ticker.clientWidth){width=ticker.clientWidth;rebuild()}}).observe(ticker);document.fonts.ready.then(rebuild);
-}
 async function start(){
- continuousTicker();const response=await fetch('products.json');if(!response.ok)throw Error('catalog');const products=await response.json();
+ const response=await fetch('products.json');if(!response.ok)throw Error('catalog');const products=await response.json();
  if(document.querySelector('#product')){renderProduct(products);return;}
  const regular=products.filter(p=>!p.name.startsWith('Baby')),baby=products.filter(p=>p.name.startsWith('Baby'));const slots=new Map(baby.map((p,i)=>[Math.round(i*(products.length-1)/(baby.length-1)),p]));let ri=0;const mixed=Array.from({length:products.length},(_,i)=>slots.get(i)||regular[ri++]);
  mountRack(mixed);

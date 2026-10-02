@@ -20,6 +20,10 @@ O comando verifica a presença dos arquivos e das imagens do catálogo. `dist/` 
 
 ## GitHub — envio pelo navegador corrigido
 
+Esta é a versão **sem ticker**, atualizada em 02/10/2026. A faixa de Instagram, TikTok e Gemini Experience foi removida da home e de todos os produtos, juntamente com a inicialização, o laço de medição, o observador e o CSS/animações relacionados. As roupas, a arara, o catálogo, as fotos e a navegação foram preservados.
+
+**Testes em navegador não concluídos:** as tentativas de WebKit/Chromium foram interrompidas a pedido do usuário. Não há confirmação de compatibilidade nesta entrega. Foram feitas somente verificações locais de sintaxe, integridade dos arquivos, remoção do ticker e build. Não houve publicação, deploy ou envio à hospedagem.
+
 Este pacote contém **96 arquivos no total**, sendo **88 em `dist/`**. Nenhum arquivo individual ultrapassa 2 MB. Foram compartilhadas 49 cópias idênticas de imagens e retirados do pacote os arquivos do antigo 3D que não são carregados pelo site. Todas as fotografias, os 25 mockups, a logo e as fontes foram preservados sem recompressão.
 
 O GitHub aceita até 100 arquivos de uma vez e 25 MiB por arquivo no navegador. Este pacote cabe nesses limites: [documentação oficial](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository).
