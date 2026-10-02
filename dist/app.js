@@ -1,0 +1,22 @@
+const money = n => n.toLocaleString('pt-BR',{style:'currency',currency:'BRL'});
+const escapeHtml = s => String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function continuousTicker(){
+ const ticker=document.querySelector('.ticker');if(!ticker)return;const track=document.createElement('div');track.className='ticker-track';ticker.replaceChildren(track);
+ function rebuild(){const group=document.createElement('div');group.className='ticker-group';track.replaceChildren(group);let count=0;
+  do{const unit=document.createElement('span');unit.className='ticker-unit';unit.innerHTML='<a href="https://instagram.com/gemini.exp">INSTAGRAM</a><span>·</span><a href="https://tiktok.com/@gemini.experience">TIKTOK</a><span>·</span><span>GEMINI EXPERIENCE</span><span>·</span>';if(count++){unit.setAttribute('aria-hidden','true');unit.querySelectorAll('a').forEach(a=>a.tabIndex=-1)}group.append(unit)}while(group.getBoundingClientRect().width<ticker.clientWidth+350);
+  const copy=group.cloneNode(true);copy.setAttribute('aria-hidden','true');copy.querySelectorAll('a').forEach(a=>a.tabIndex=-1);track.append(copy);track.style.setProperty('--ticker-duration',(group.getBoundingClientRect().width/50)+'s');
+ }
+ rebuild();let width=ticker.clientWidth;new ResizeObserver(()=>{if(width!==ticker.clientWidth){width=ticker.clientWidth;rebuild()}}).observe(ticker);document.fonts.ready.then(rebuild);
+}
+async function start(){
+ continuousTicker();const response=await fetch('products.json');if(!response.ok)throw Error('catalog');const products=await response.json();
+ if(document.querySelector('#product')){renderProduct(products);return;}
+ const regular=products.filter(p=>!p.name.startsWith('Baby')),baby=products.filter(p=>p.name.startsWith('Baby'));const slots=new Map(baby.map((p,i)=>[Math.round(i*(products.length-1)/(baby.length-1)),p]));let ri=0;const mixed=Array.from({length:products.length},(_,i)=>slots.get(i)||regular[ri++]);
+ mountRack(mixed);
+ const catalog=document.querySelector('#catalog'),wardrobe=document.querySelector('.wardrobe');document.querySelector('#collection').onclick=()=>{wardrobe.hidden=true;catalog.hidden=false;document.querySelector('#back-rack').focus()};document.querySelector('#back-rack').onclick=()=>{wardrobe.hidden=false;catalog.hidden=true;document.querySelector('#collection').focus()};
+ document.querySelector('#grid').innerHTML=mixed.map(p=>'<a class="card" href="produto.html?id='+encodeURIComponent(p.id)+'"><img loading="lazy" src="'+p.image+'" alt="'+escapeHtml(p.name)+'"><h2>'+escapeHtml(p.name)+'</h2><p>'+money(p.price)+'</p></a>').join('');
+}
+function renderProduct(products){const p=products.find(p=>p.id===new URLSearchParams(location.search).get('id'))||(!location.search?products[0]:null);const main=document.querySelector('#product');if(!p){main.innerHTML='<div class="error"><h1>Peça não encontrada</h1><a class="pill" href="index.html">VOLTAR À ARARA</a></div>';return;}document.title=p.name+' · Gemini Experience';const gallery=p.gallery||[p.image];main.innerHTML='<section aria-label="Fotos da camiseta"><img class="product-photo" id="photo" src="'+p.image+'" alt="'+escapeHtml(p.name)+'"><div class="thumbs">'+gallery.map((src,i)=>'<button class="'+(!i?'active':'')+'" aria-label="Ver foto '+(i+1)+'" data-photo="'+src+'"><img src="'+src+'" alt=""></button>').join('')+'</div></section><section><p class="meta">GEMINI EXPERIENCE</p><h1>'+escapeHtml(p.name)+'</h1><p class="product-price">'+money(p.price)+'</p><p>Tamanho</p><div class="sizes">'+(p.sizes||['P','M','G','GG','EG']).map(s=>'<button aria-pressed="false">'+escapeHtml(s)+'</button>').join('')+'</div><a class="buy" href="'+p.url+'">COMPRAR NA GEMINI</a><div class="product-description"><p>'+escapeHtml(p.description)+'</p></div></section>';
+ main.querySelectorAll('[data-photo]').forEach(b=>b.onclick=()=>{main.querySelector('#photo').src=b.dataset.photo;main.querySelectorAll('.thumbs button').forEach(x=>x.classList.toggle('active',x===b))});main.querySelectorAll('.sizes button').forEach(b=>b.onclick=()=>{main.querySelectorAll('.sizes button').forEach(x=>{x.classList.toggle('active',x===b);x.setAttribute('aria-pressed',x===b?'true':'false')})});
+}
+start().catch(()=>{const main=document.querySelector('main');main.innerHTML='<div class="error"><p>Não foi possível carregar as peças.</p><a class="pill" href="https://geminiexperience.com.br/">ACESSAR A LOJA GEMINI</a></div>'});

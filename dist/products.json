@@ -1,0 +1,568 @@
+[
+  {
+    "id": "camiseta-elo-preta-2w0mv",
+    "name": "Camiseta Elo Preta",
+    "url": "https://www.geminiexperience.com.br/produtos/camiseta-elo-preta-2w0mv/",
+    "price": 159.0,
+    "description": "T-shirt \"Elo\" em cor preta com estampa frontal. Modelagem Boxy  . Confeccionada em  100% algodão . Gola com 3,0cm em ribana canelada. Tabela de medidas na última foto.",
+    "src": "https://dcdn-us.mitiendanube.com/stores/004/815/330/products/frame-17-80e658d95200e9902917779222383078-480-0.webp",
+    "image": "assets/camiseta-elo-preta-2w0mv.webp",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EG"
+    ],
+    "gallery": [
+      "assets/camiseta-elo-preta-2w0mv.webp",
+      "assets/camiseta-elo-preta-2w0mv-1.webp",
+      "assets/camiseta-elo-preta-2w0mv-2.webp",
+      "assets/camiseta-elo-preta-2w0mv-3.webp"
+    ],
+    "mockup": "assets/mockups/camiseta-elo-preta-2w0mv.png"
+  },
+  {
+    "id": "camiseta-elo-branca-w6w59",
+    "name": "Camiseta Elo Branca",
+    "url": "https://www.geminiexperience.com.br/produtos/camiseta-elo-branca-w6w59/",
+    "price": 159.0,
+    "description": "T-shirt \"Elo\" em cor branca com estampa frontal. Modelagem Boxy  . Confeccionada em  100% algodão . Gola com 3,0cm em ribana canelada. Tabela de medidas na última foto.",
+    "src": "https://dcdn-us.mitiendanube.com/stores/004/815/330/products/frame-18-8cbf38c3cad0dead1b17776567155833-480-0.webp",
+    "image": "assets/camiseta-elo-branca-w6w59.webp",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EG"
+    ],
+    "gallery": [
+      "assets/camiseta-elo-branca-w6w59.webp",
+      "assets/camiseta-elo-branca-w6w59-1.webp",
+      "assets/camiseta-elo-branca-w6w59-2.webp",
+      "assets/camiseta-elo-branca-w6w59-3.webp"
+    ],
+    "mockup": "assets/mockups/camiseta-elo-branca-w6w59.png"
+  },
+  {
+    "id": "camiseta-diamond-branca-15af9",
+    "name": "Camiseta Diamond Branca",
+    "url": "https://www.geminiexperience.com.br/produtos/camiseta-diamond-branca-15af9/",
+    "price": 159.0,
+    "description": "T-shirt \"Diamond\" em cor branca com estampa frontal. Modelagem Boxy  . Confeccionada em  100% algodão . Gola com 3,0cm em ribana canelada. Tabela de medidas na última foto.",
+    "src": "https://dcdn-us.mitiendanube.com/stores/004/815/330/products/frame-6-86748bb9a14435618c17776570907050-480-0.webp",
+    "image": "assets/camiseta-diamond-branca-15af9.webp",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EG"
+    ],
+    "gallery": [
+      "assets/camiseta-diamond-branca-15af9.webp",
+      "assets/camiseta-elo-branca-w6w59-1.webp",
+      "assets/camiseta-elo-preta-2w0mv-3.webp",
+      "assets/camiseta-diamond-branca-15af9-3.webp"
+    ],
+    "mockup": "assets/mockups/camiseta-diamond-branca-15af9.png"
+  },
+  {
+    "id": "camiseta-diamond-preta-1kekz",
+    "name": "Camiseta Diamond Preta",
+    "url": "https://www.geminiexperience.com.br/produtos/camiseta-diamond-preta-1kekz/",
+    "price": 159.0,
+    "description": "T-shirt \"Diamond\" em cor preta com estampa frontal. Modelagem Boxy  . Confeccionada em  100% algodão . Gola com 3,0cm em ribana canelada. Tabela de medidas na última foto.",
+    "src": "https://dcdn-us.mitiendanube.com/stores/004/815/330/products/frame-5-bdd1205b37a64a5ee117776571524001-480-0.webp",
+    "image": "assets/camiseta-diamond-preta-1kekz.webp",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EG"
+    ],
+    "gallery": [
+      "assets/camiseta-diamond-preta-1kekz.webp",
+      "assets/camiseta-elo-preta-2w0mv-1.webp",
+      "assets/camiseta-diamond-preta-1kekz-2.webp",
+      "assets/camiseta-elo-preta-2w0mv-3.webp"
+    ],
+    "mockup": "assets/mockups/camiseta-diamond-preta-1kekz.png"
+  },
+  {
+    "id": "camiseta-pilula-preta-1swha",
+    "name": "Camiseta Pílula Preta",
+    "url": "https://www.geminiexperience.com.br/produtos/camiseta-pilula-preta-1swha/",
+    "price": 159.0,
+    "description": "T-shirt \"Pílula\" em cor preta com estampa frontal e posterior. Modelagem Boxy  . Confeccionada em  100% algodão . Gola com 3,0cm em ribana canelada. Tabela de medidas na última foto.",
+    "src": "https://dcdn-us.mitiendanube.com/stores/004/815/330/products/frame-14-d426739daaf872bc5817776569783507-480-0.webp",
+    "image": "assets/camiseta-pilula-preta-1swha.webp",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EG"
+    ],
+    "gallery": [
+      "assets/camiseta-pilula-preta-1swha.webp",
+      "assets/camiseta-pilula-preta-1swha-1.webp",
+      "assets/camiseta-elo-preta-2w0mv-3.webp",
+      "assets/camiseta-pilula-preta-1swha-3.webp"
+    ],
+    "mockup": "assets/mockups/camiseta-pilula-preta-1swha.png"
+  },
+  {
+    "id": "camiseta-pill-branca-moygl",
+    "name": "Camiseta Pílula Branca",
+    "url": "https://www.geminiexperience.com.br/produtos/camiseta-pill-branca-moygl/",
+    "price": 159.0,
+    "description": "T-shirt \"Pílula\" em cor branca com estampa frontal e posterior. Modelagem Boxy  . Confeccionada em  100% algodão . Gola com 3,0cm em ribana canelada. Tabela de medidas na última foto.",
+    "src": "https://dcdn-us.mitiendanube.com/stores/004/815/330/products/frame-16-4845511de47a326bc117776569393713-480-0.webp",
+    "image": "assets/camiseta-pill-branca-moygl.webp",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EG"
+    ],
+    "gallery": [
+      "assets/camiseta-pill-branca-moygl.webp",
+      "assets/camiseta-pill-branca-moygl-1.webp",
+      "assets/camiseta-pill-branca-moygl-2.webp",
+      "assets/camiseta-elo-preta-2w0mv-3.webp"
+    ],
+    "mockup": "assets/mockups/camiseta-pill-branca-moygl.png"
+  },
+  {
+    "id": "camiseta-pilula-azul-marinho-o6ev4",
+    "name": "Camiseta Pílula Azul Marinho",
+    "url": "https://www.geminiexperience.com.br/produtos/camiseta-pilula-azul-marinho-o6ev4/",
+    "price": 159.0,
+    "description": "T-shirt \"Pílula\" em cor azul marinho com estampa frontal e posterior. Modelagem Boxy  . Confeccionada em  100% algodão . Gola com 3,0cm em ribana canelada. Tabela de medidas na última foto.",
+    "src": "https://dcdn-us.mitiendanube.com/stores/004/815/330/products/frame-4-74034bb6e5fe294bb717776570338134-480-0.webp",
+    "image": "assets/camiseta-pilula-azul-marinho-o6ev4.webp",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EG"
+    ],
+    "gallery": [
+      "assets/camiseta-pilula-azul-marinho-o6ev4.webp",
+      "assets/camiseta-pilula-azul-marinho-o6ev4-1.webp",
+      "assets/camiseta-elo-preta-2w0mv-3.webp",
+      "assets/camiseta-pilula-azul-marinho-o6ev4-3.webp"
+    ],
+    "mockup": "assets/mockups/camiseta-pilula-azul-marinho-o6ev4.png"
+  },
+  {
+    "id": "camiseta-web-branca-givxj",
+    "name": "Camiseta Web Branca",
+    "url": "https://www.geminiexperience.com.br/produtos/camiseta-web-branca-givxj/",
+    "price": 159.0,
+    "description": "T-shirt \"Web\" em cor branca com estampa frontal. Modelagem Boxy  . Confeccionada em  100% algodão . Gola com 3,0cm em ribana canelada. Tabela de medidas na última foto.",
+    "src": "https://dcdn-us.mitiendanube.com/stores/004/815/330/products/frame-12-7712c681e532e3e31b17776568724977-480-0.webp",
+    "image": "assets/camiseta-web-branca-givxj.webp",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EG"
+    ],
+    "gallery": [
+      "assets/camiseta-web-branca-givxj.webp",
+      "assets/camiseta-elo-branca-w6w59-1.webp",
+      "assets/camiseta-web-branca-givxj-2.webp",
+      "assets/camiseta-web-branca-givxj-3.webp"
+    ],
+    "mockup": "assets/mockups/camiseta-web-branca-givxj.png"
+  },
+  {
+    "id": "camiseta-web-preta-8koyy",
+    "name": "Camiseta Web Preta",
+    "url": "https://www.geminiexperience.com.br/produtos/camiseta-web-preta-8koyy/",
+    "price": 159.0,
+    "description": "T-shirt \"Web\" em cor preta com estampa frontal. Modelagem Boxy  . Confeccionada em  100% algodão . Gola com 3,0cm em ribana canelada. Tabela de medidas na última foto.",
+    "src": "https://dcdn-us.mitiendanube.com/stores/004/815/330/products/frame-10-0d0918737240221f4617776568357122-480-0.webp",
+    "image": "assets/camiseta-web-preta-8koyy.webp",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EG"
+    ],
+    "gallery": [
+      "assets/camiseta-web-preta-8koyy.webp",
+      "assets/camiseta-elo-preta-2w0mv-1.webp",
+      "assets/camiseta-web-preta-8koyy-2.webp",
+      "assets/camiseta-elo-branca-w6w59-2.webp"
+    ],
+    "mockup": "assets/mockups/camiseta-web-preta-8koyy.png"
+  },
+  {
+    "id": "camiseta-web-vermelha-1ifo5",
+    "name": "Camiseta Web Vermelha",
+    "url": "https://www.geminiexperience.com.br/produtos/camiseta-web-vermelha-1ifo5/",
+    "price": 159.0,
+    "description": "T-shirt \"Web\" em cor vermelha com estampa frontal. Modelagem Boxy  . Confeccionada em  100% algodão . Gola com 3,0cm em ribana canelada. Tabela de medidas na última foto.",
+    "src": "https://dcdn-us.mitiendanube.com/stores/004/815/330/products/frame-54-ffc0206983247d9b1917830272970836-480-0.webp",
+    "image": "assets/camiseta-web-vermelha-1ifo5.webp",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EG"
+    ],
+    "gallery": [
+      "assets/camiseta-web-vermelha-1ifo5.webp",
+      "assets/camiseta-web-vermelha-1ifo5-1.webp",
+      "assets/camiseta-elo-preta-2w0mv-3.webp",
+      "assets/camiseta-web-branca-givxj-2.webp"
+    ],
+    "mockup": "assets/mockups/camiseta-web-vermelha-1ifo5.png"
+  },
+  {
+    "id": "camiseta-matriz-roxa-8u2f2",
+    "name": "Camiseta Matriz Roxa",
+    "url": "https://www.geminiexperience.com.br/produtos/camiseta-matriz-roxa-8u2f2/",
+    "price": 159.0,
+    "description": "T-shirt \"Matriz\" em cor preta com estampa frontal. Modelagem Boxy  . Confeccionada em  100% algodão . Gola com 3,0cm em ribana canelada. Tabela de medidas na última foto.",
+    "src": "https://dcdn-us.mitiendanube.com/stores/004/815/330/products/frame-1-421546382b62fb45dc17779225176458-480-0.webp",
+    "image": "assets/camiseta-matriz-roxa-8u2f2.webp",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EG"
+    ],
+    "gallery": [
+      "assets/camiseta-matriz-roxa-8u2f2.webp",
+      "assets/camiseta-elo-preta-2w0mv-1.webp",
+      "assets/camiseta-matriz-roxa-8u2f2-2.webp",
+      "assets/camiseta-elo-preta-2w0mv-3.webp"
+    ],
+    "mockup": "assets/mockups/camiseta-matriz-roxa-8u2f2.png"
+  },
+  {
+    "id": "camiseta-matriz-verde-lkhg2",
+    "name": "Camiseta Matriz Verde",
+    "url": "https://www.geminiexperience.com.br/produtos/camiseta-matriz-verde-lkhg2/",
+    "price": 159.0,
+    "description": "T-shirt \"Matriz\" em cor preta com estampa frontal. Modelagem Boxy  . Confeccionada em  100% algodão . Gola com 3,0cm em ribana canelada. Tabela de medidas na última foto.",
+    "src": "https://dcdn-us.mitiendanube.com/stores/004/815/330/products/frame-2-b8ed59d58d06f281a717779225000717-480-0.webp",
+    "image": "assets/camiseta-matriz-verde-lkhg2.webp",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EG"
+    ],
+    "gallery": [
+      "assets/camiseta-matriz-verde-lkhg2.webp",
+      "assets/camiseta-elo-preta-2w0mv-1.webp",
+      "assets/camiseta-elo-preta-2w0mv-3.webp",
+      "assets/camiseta-pilula-preta-1swha-3.webp"
+    ],
+    "mockup": "assets/mockups/camiseta-matriz-verde-lkhg2.png"
+  },
+  {
+    "id": "camiseta-delta-vermelha-1mk4o",
+    "name": "Camiseta Delta Vermelha",
+    "url": "https://www.geminiexperience.com.br/produtos/camiseta-delta-vermelha-1mk4o/",
+    "price": 159.0,
+    "description": "T-shirt \"Delta\" em cor vermelha com estampa frontal. Modelagem Boxy  . Confeccionada em  100% algodão . Gola com 3,0cm em ribana canelada. Tabela de medidas na última foto.",
+    "src": "https://dcdn-us.mitiendanube.com/stores/004/815/330/products/frame-53-458371a772343ff2b317830272594512-480-0.webp",
+    "image": "assets/camiseta-delta-vermelha-1mk4o.webp",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EG"
+    ],
+    "gallery": [
+      "assets/camiseta-delta-vermelha-1mk4o.webp",
+      "assets/camiseta-web-vermelha-1ifo5-1.webp",
+      "assets/camiseta-elo-preta-2w0mv-3.webp",
+      "assets/camiseta-delta-vermelha-1mk4o-3.webp"
+    ],
+    "mockup": "assets/mockups/camiseta-delta-vermelha-1mk4o.png"
+  },
+  {
+    "id": "camiseta-delta-branca-b9mso",
+    "name": "Camiseta Delta Branca",
+    "url": "https://www.geminiexperience.com.br/produtos/camiseta-delta-branca-b9mso/",
+    "price": 159.0,
+    "description": "T-shirt \"Delta\" em cor branca com estampa frontal. Modelagem Boxy  . Confeccionada em  100% algodão . Gola com 3,0cm em ribana canelada. Tabela de medidas na última foto.",
+    "src": "https://dcdn-us.mitiendanube.com/stores/004/815/330/products/frame-9-c38c8ba55f877f738a17776564811039-480-0.webp",
+    "image": "assets/camiseta-delta-branca-b9mso.webp",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EG"
+    ],
+    "gallery": [
+      "assets/camiseta-delta-branca-b9mso.webp",
+      "assets/camiseta-elo-branca-w6w59-1.webp",
+      "assets/camiseta-elo-preta-2w0mv-3.webp",
+      "assets/camiseta-delta-vermelha-1mk4o-3.webp"
+    ],
+    "mockup": "assets/mockups/camiseta-delta-branca-b9mso.png"
+  },
+  {
+    "id": "camiseta-delta-preta-vaqk9",
+    "name": "Camiseta Delta Preta",
+    "url": "https://www.geminiexperience.com.br/produtos/camiseta-delta-preta-vaqk9/",
+    "price": 159.0,
+    "description": "T-shirt \"Delta\" em cor preta com estampa frontal. Modelagem Boxy  . Confeccionada em  100% algodão . Gola com 3,0cm em ribana canelada. Tabela de medidas na última foto.",
+    "src": "https://dcdn-us.mitiendanube.com/stores/004/815/330/products/frame-8-6f72da122bdc31373a17779140714175-480-0.webp",
+    "image": "assets/camiseta-delta-preta-vaqk9.webp",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EG"
+    ],
+    "gallery": [
+      "assets/camiseta-delta-preta-vaqk9.webp",
+      "assets/camiseta-elo-preta-2w0mv-1.webp",
+      "assets/camiseta-delta-preta-vaqk9-2.webp",
+      "assets/camiseta-elo-preta-2w0mv-3.webp"
+    ],
+    "mockup": "assets/mockups/camiseta-delta-preta-vaqk9.png"
+  },
+  {
+    "id": "camiseta-miss-2000s-preta-1xf1p",
+    "name": "Camiseta 2000's Preta",
+    "url": "https://www.geminiexperience.com.br/produtos/camiseta-miss-2000s-preta-1xf1p/",
+    "price": 159.0,
+    "description": "T-shirt \"Miss 2000's\" em cor preta com estampa frontal. Modelagem Boxy  . Confeccionada em  100% algodão . Gola com 3,0cm em ribana canelada. Tabela de medidas na última foto.",
+    "src": "https://dcdn-us.mitiendanube.com/stores/004/815/330/products/frame-19-1deaaf39e1489b343117776591284616-480-0.webp",
+    "image": "assets/camiseta-miss-2000s-preta-1xf1p.webp",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EG"
+    ],
+    "gallery": [
+      "assets/camiseta-miss-2000s-preta-1xf1p.webp",
+      "assets/camiseta-elo-preta-2w0mv-1.webp",
+      "assets/camiseta-elo-preta-2w0mv-3.webp",
+      "assets/camiseta-miss-2000s-preta-1xf1p-3.webp"
+    ],
+    "mockup": "assets/mockups/camiseta-miss-2000s-preta-1xf1p.png"
+  },
+  {
+    "id": "baby-tee-man-i-miss-2000s-1by02",
+    "name": "Baby look 2000's Preta",
+    "url": "https://www.geminiexperience.com.br/produtos/baby-tee-man-i-miss-2000s-1by02/",
+    "price": 109.0,
+    "description": "Baby look \"Miss 2000's\" em cor preta com estampa frontal. Confeccionada em 100% algodão.  Ideal para dias quentes. Tabela de medidas na última foto.",
+    "src": "https://dcdn-us.mitiendanube.com/stores/004/815/330/products/frame-20-e54df10c7e411db76d17776590935112-480-0.webp",
+    "image": "assets/baby-tee-man-i-miss-2000s-1by02.webp",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "gallery": [
+      "assets/baby-tee-man-i-miss-2000s-1by02.webp",
+      "assets/baby-tee-man-i-miss-2000s-1by02-1.webp",
+      "assets/baby-tee-man-i-miss-2000s-1by02-2.webp",
+      "assets/camiseta-diamond-branca-15af9-3.webp"
+    ],
+    "mockup": "assets/mockups/baby-tee-man-i-miss-2000s-1by02.png"
+  },
+  {
+    "id": "baby-tee-web-branca-1sl2t",
+    "name": "Baby look Web Branca",
+    "url": "https://www.geminiexperience.com.br/produtos/baby-tee-web-branca-1sl2t/",
+    "price": 109.0,
+    "description": "Baby look \"Web\" em cor branca com estampa frontal. Confeccionada em 100% algodão.  Ideal para dias quentes. Tabela de medidas na última foto.",
+    "src": "https://dcdn-us.mitiendanube.com/stores/004/815/330/products/frame-27-dafd690c11cef4006117776584143362-480-0.webp",
+    "image": "assets/baby-tee-web-branca-1sl2t.webp",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "gallery": [
+      "assets/baby-tee-web-branca-1sl2t.webp",
+      "assets/camiseta-web-branca-givxj-3.webp",
+      "assets/baby-tee-man-i-miss-2000s-1by02-2.webp",
+      "assets/camiseta-delta-vermelha-1mk4o-3.webp"
+    ],
+    "mockup": "assets/mockups/baby-tee-web-branca-1sl2t.png"
+  },
+  {
+    "id": "baby-tee-web-preta-1pdv4",
+    "name": "Baby look Web Preta",
+    "url": "https://www.geminiexperience.com.br/produtos/baby-tee-web-preta-1pdv4/",
+    "price": 109.0,
+    "description": "Baby look \"Web\" em cor preta com estampa frontal. Confeccionada em 100% algodão.  Ideal para dias quentes. Tabela de medidas na última foto.",
+    "src": "https://dcdn-us.mitiendanube.com/stores/004/815/330/products/frame-28-b137a80c7e030eae4d17776583776765-480-0.webp",
+    "image": "assets/baby-tee-web-preta-1pdv4.webp",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "gallery": [
+      "assets/baby-tee-web-preta-1pdv4.webp",
+      "assets/baby-tee-man-i-miss-2000s-1by02-1.webp",
+      "assets/baby-tee-man-i-miss-2000s-1by02-2.webp",
+      "assets/camiseta-miss-2000s-preta-1xf1p-3.webp"
+    ],
+    "mockup": "assets/mockups/baby-tee-web-preta-1pdv4.png"
+  },
+  {
+    "id": "baby-tee-web-vermelha-1fxnj",
+    "name": "Baby look Web Vermelha",
+    "url": "https://www.geminiexperience.com.br/produtos/baby-tee-web-vermelha-1fxnj/",
+    "price": 109.0,
+    "description": "Baby look \"Web\" em cor vermelha com estampa frontal. Confeccionada em 100% algodão.  Ideal para dias quentes. Tabela de medidas na última foto.",
+    "src": "https://dcdn-us.mitiendanube.com/stores/004/815/330/products/frame-50-6565c7d99f40669e0117825980216196-480-0.webp",
+    "image": "assets/baby-tee-web-vermelha-1fxnj.webp",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "gallery": [
+      "assets/baby-tee-web-vermelha-1fxnj.webp",
+      "assets/camiseta-elo-branca-w6w59-3.webp",
+      "assets/baby-tee-man-i-miss-2000s-1by02-2.webp",
+      "assets/camiseta-web-branca-givxj-2.webp"
+    ],
+    "mockup": "assets/mockups/baby-tee-web-vermelha-1fxnj.png"
+  },
+  {
+    "id": "baby-tee-pilula-branca-ndjoy",
+    "name": "Baby look Pílula Branca",
+    "url": "https://www.geminiexperience.com.br/produtos/baby-tee-pilula-branca-ndjoy/",
+    "price": 109.0,
+    "description": "Baby look \"Pílula\" em cor branca com estampa frontal. Confeccionada em 100% algodão.  Ideal para dias quentes. Tabela de medidas na última foto.",
+    "src": "https://dcdn-us.mitiendanube.com/stores/004/815/330/products/frame-22-636044c5db7db00cba17776582960452-480-0.webp",
+    "image": "assets/baby-tee-pilula-branca-ndjoy.webp",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "gallery": [
+      "assets/baby-tee-pilula-branca-ndjoy.webp",
+      "assets/camiseta-web-branca-givxj-3.webp",
+      "assets/baby-tee-man-i-miss-2000s-1by02-2.webp",
+      "assets/camiseta-pilula-preta-1swha-3.webp"
+    ],
+    "mockup": "assets/mockups/baby-tee-pilula-branca-ndjoy.png"
+  },
+  {
+    "id": "baby-tee-pilula-preta-194gw",
+    "name": "Baby look Pílula Preta",
+    "url": "https://www.geminiexperience.com.br/produtos/baby-tee-pilula-preta-194gw/",
+    "price": 109.0,
+    "description": "Baby look \"Pílula\" em cor preta com estampa frontal. Confeccionada em 100% algodão.  Ideal para dias quentes. Tabela de medidas na última foto.",
+    "src": "https://dcdn-us.mitiendanube.com/stores/004/815/330/products/frame-21-099eefb77708b9776617776582708374-480-0.webp",
+    "image": "assets/baby-tee-pilula-preta-194gw.webp",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "gallery": [
+      "assets/baby-tee-pilula-preta-194gw.webp",
+      "assets/baby-tee-man-i-miss-2000s-1by02-1.webp",
+      "assets/baby-tee-pilula-preta-194gw-2.webp",
+      "assets/baby-tee-man-i-miss-2000s-1by02-2.webp"
+    ],
+    "mockup": "assets/mockups/baby-tee-pilula-preta-194gw.png"
+  },
+  {
+    "id": "baby-tee-delta-preta-9u0th",
+    "name": "Baby look Delta Preta",
+    "url": "https://www.geminiexperience.com.br/produtos/baby-tee-delta-preta-9u0th/",
+    "price": 109.0,
+    "description": "Baby look \"Delta\" em cor preta com estampa frontal. Confeccionada em 100% algodão.  Ideal para dias quentes. Tabela de medidas na última foto.",
+    "src": "https://dcdn-us.mitiendanube.com/stores/004/815/330/products/frame-25-ece53fb139c353b62817776582079229-480-0.webp",
+    "image": "assets/baby-tee-delta-preta-9u0th.webp",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "gallery": [
+      "assets/baby-tee-delta-preta-9u0th.webp",
+      "assets/baby-tee-man-i-miss-2000s-1by02-1.webp",
+      "assets/baby-tee-man-i-miss-2000s-1by02-2.webp",
+      "assets/baby-tee-delta-preta-9u0th-3.webp"
+    ],
+    "mockup": "assets/mockups/baby-tee-delta-preta-9u0th.png"
+  },
+  {
+    "id": "baby-tee-delta-vermelha-133ud",
+    "name": "Baby look Delta Vermelha",
+    "url": "https://www.geminiexperience.com.br/produtos/baby-tee-delta-vermelha-133ud/",
+    "price": 109.0,
+    "description": "Baby look \"Delta\" em cor vermelha com estampa frontal. Confeccionada em 100% algodão.  Ideal para dias quentes. Tabela de medidas na última foto.",
+    "src": "https://dcdn-us.mitiendanube.com/stores/004/815/330/products/frame-51-aef99c7103f500280a17825980473631-480-0.webp",
+    "image": "assets/baby-tee-delta-vermelha-133ud.webp",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "gallery": [
+      "assets/baby-tee-delta-vermelha-133ud.webp",
+      "assets/camiseta-elo-branca-w6w59-3.webp",
+      "assets/baby-tee-man-i-miss-2000s-1by02-2.webp",
+      "assets/camiseta-miss-2000s-preta-1xf1p-3.webp"
+    ],
+    "mockup": "assets/mockups/baby-tee-delta-vermelha-133ud.png"
+  },
+  {
+    "id": "baby-tee-delta-branca-key7x",
+    "name": "Baby look Delta Branca",
+    "url": "https://www.geminiexperience.com.br/produtos/baby-tee-delta-branca-key7x/",
+    "price": 109.0,
+    "description": "Baby look \"Delta\" em cor branca com estampa frontal. Confeccionada em 100% algodão.  Ideal para dias quentes. Tabela de medidas na última foto.",
+    "src": "https://dcdn-us.mitiendanube.com/stores/004/815/330/products/frame-23-77cf2f1b06dd53442b17776580476581-480-0.webp",
+    "image": "assets/baby-tee-delta-branca-key7x.webp",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "gallery": [
+      "assets/baby-tee-delta-branca-key7x.webp",
+      "assets/camiseta-web-branca-givxj-3.webp",
+      "assets/baby-tee-man-i-miss-2000s-1by02-2.webp",
+      "assets/camiseta-delta-vermelha-1mk4o-3.webp"
+    ],
+    "mockup": "assets/mockups/baby-tee-delta-branca-key7x.png"
+  }
+]

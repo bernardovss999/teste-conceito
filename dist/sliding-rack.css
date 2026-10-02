@@ -1,0 +1,27 @@
+.rack{--garment-size:220px;--rack-count:4;height:calc(var(--garment-size) + 88px);flex-shrink:0;width:100%;margin:0}
+.photo-viewport{height:100%;width:100%;overflow-x:auto;overflow-y:hidden;scrollbar-width:none;position:relative;touch-action:pan-y;cursor:grab;scroll-snap-type:x mandatory;overscroll-behavior-x:contain}
+.photo-viewport::-webkit-scrollbar{display:none}
+.photo-row{width:100%;height:100%;padding:0;gap:0;display:flex;align-items:flex-start;justify-content:flex-start}
+.rack-page{flex:0 0 100%;width:100%;height:100%;display:grid;grid-template-columns:repeat(var(--rack-count),minmax(0,1fr));padding:48px 12px 32px;scroll-snap-align:start;scroll-snap-stop:always}
+.photo-piece{min-width:0;max-width:none;width:100%;height:var(--garment-size);padding:0;position:relative;transform:none!important;transition:none;touch-action:pan-y;z-index:1}
+.photo-piece:is(:hover,:focus-visible,.active){z-index:2}
+.garment-shell{display:block;position:relative;width:var(--garment-size);height:var(--garment-size);margin:0 auto;pointer-events:none}
+.photo-piece img{display:block;width:100%;height:100%;object-fit:contain;object-position:center top;transform-origin:50% 3%;transition:transform .35s;pointer-events:none;filter:drop-shadow(3px 8px 5px #00000016)}
+.photo-piece.babylook img{width:86%;margin:0 auto}
+.photo-piece:is(:hover,:focus-visible,.active) img{transform:scale(1.025)}
+.photo-row.moving .photo-piece img{animation:garment-sway .7s ease-out;animation-delay:calc(var(--layer)*-17ms)}
+@keyframes garment-sway{0%{transform:rotate(0deg)}25%{transform:rotate(-1.8deg)}60%{transform:rotate(.8deg)}100%{transform:rotate(0deg)}}
+.photo-rail{top:43px;height:28px;left:0;right:0;background:none;border:0;box-shadow:none;border-radius:0;cursor:grab;z-index:150;touch-action:pan-y}
+.photo-rail:before,.photo-rail:after{display:none}
+.rail-body{position:absolute;top:10px;left:0;right:0;height:7px;border-radius:3px;background:linear-gradient(#656861,#dedfd9 30%,#8c9086 55%,#e8e9e3 72%,#6b6f65);box-shadow:0 3px 5px #0002;pointer-events:none}
+.rail-cap{position:absolute;top:5px;height:17px;width:10px;border-radius:2px;background:linear-gradient(90deg,#7c8174,#d4d7cc,#7c8174);pointer-events:none}.rail-cap.start{left:0}.rail-cap.end{right:0}
+.rack.dragging,.rack.dragging .photo-viewport,.rack.dragging .photo-rail,.rack.dragging .photo-piece{cursor:grabbing}.rack.dragging .photo-viewport{scroll-snap-type:none}
+.photo-rail:focus-visible{outline:1px solid #111;outline-offset:5px}
+.wardrobe{height:calc(100svh - 136px);min-height:500px;padding:24px 5% 88px;gap:0}
+.rack-controls{margin:4px 0 16px;gap:18px;font-size:12px}.rack-controls button{width:44px;height:44px}
+.selection{height:auto;min-height:90px;max-width:100%;padding:0 12px;font-size:14px;line-height:1.5;gap:12px}
+.collection-button{bottom:24px;min-height:44px}
+@media(max-width:800px){.wardrobe{height:calc(100svh - 120px);min-height:440px;padding:20px 4% 82px}.rack-controls{margin:0 0 14px}.collection-button{bottom:20px}}
+@media(max-width:480px){header{height:84px;padding:0 12px;gap:6px;grid-template-columns:1fr auto 1fr}.logo{width:clamp(120px,38vw,165px)}.small-link{font-size:12px;letter-spacing:0}.wardrobe{min-height:430px;padding-left:12px;padding-right:12px}.selection{font-size:13px;min-height:102px}.pill{min-height:44px;display:inline-flex;align-items:center;justify-content:center}.ticker{font-size:12px}.catalog-head{align-items:flex-start;flex-wrap:wrap}.grid{gap:24px 14px}}
+@media(max-height:550px) and (min-width:700px){.wardrobe{min-height:450px}}
+@media(prefers-reduced-motion:reduce){.photo-piece img{transition:none}.photo-row.moving .photo-piece img{animation:none}}
